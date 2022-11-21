@@ -1,5 +1,9 @@
 const ButtonComponent = (props) => {
-  return <button>{props.content}</button>
+  return (
+    <div>
+      <button>{props.content}</button>
+    </div>
+  )
 }
 
 export default ButtonComponent
